@@ -20,23 +20,43 @@ public class Enemy : MonoBehaviour
     {
         _agent = GetComponent<NavMeshAgent>();
         _gameManager = FindObjectOfType<Game_Manager>();
-        Target();
+        Invoke("Target", 1f);
     }
 
     void Update()
     {
-        _agent.destination = target.transform.position;
+        if (target)
+        {
+            _agent.destination = target.transform.position;
+        }
+        else
+        {
+            StartCoroutine(Retargeting());
+        }
     }
 
     public void Enemy_Take_Damage(int damage)
     {
         health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
     
     private void Target()
     {
-        randomPlayer = Random.Range(0, _gameManager.Players.Length);
-        target = _gameManager.Players[randomPlayer];
-        Debug.Log(target);
+        if (!target && _gameManager.Players.Count != 0)
+        {
+            randomPlayer = Random.Range(0, _gameManager.Players.Count);
+            target = _gameManager.Players[randomPlayer];
+            //Debug.Log(target);
+        }
+    }
+
+    IEnumerator Retargeting()
+    {
+        yield return new WaitForSeconds(0.3f);
+        Target();
     }
 }
