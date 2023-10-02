@@ -6,10 +6,10 @@ public class Game_Manager : MonoBehaviour
 {
     [Header("References")] 
     [SerializeField] public List<GameObject> Players;
-    [SerializeField] private GameObject Player_Spawn_Point;
-    [SerializeField] private GameObject Enemy;
-    [SerializeField] private GameObject[] Enemy_Spawn_Points;
     [SerializeField] public List<GameObject> Enemies;
+    [SerializeField] private GameObject[] Enemy_Spawn_Points;
+    [SerializeField] private GameObject Enemy;
+    [SerializeField] private GameObject Player_Spawn_Point;
     private GameObject Instantiated_Enemy;
 
     [Header("Variables")]
