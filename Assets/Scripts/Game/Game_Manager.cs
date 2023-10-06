@@ -49,13 +49,14 @@ public class Game_Manager : MonoBehaviour
                     randomSpawn = Random.Range(0, Enemy_Spawn_Points.Length - 1);
                     Instantiated_Enemy = Instantiate(Enemy, Enemy_Spawn_Points[randomSpawn].transform.position, Quaternion.identity);
                     Enemies.Add(Instantiated_Enemy);
+                    Instantiated_Enemy = null;
                     enemyCounter++;
                 }
             }
             else if (enemyCounter == maxEnemies && Enemies.Count <= 0)
             {
                 enemyCounter = 0;
-                maxEnemies +=4;
+                maxEnemies += 4;
             }
         }
 
