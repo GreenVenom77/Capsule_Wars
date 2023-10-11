@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97f1c8a0-cf5a-444e-bf3d-4939af4ecf38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Game_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Game_Manager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +135,7 @@
       <workItem from="1696248859961" duration="329000" />
       <workItem from="1696463528126" duration="647000" />
       <workItem from="1696621949322" duration="3055000" />
+      <workItem from="1697016134952" duration="837000" />
     </task>
     <servers />
   </component>

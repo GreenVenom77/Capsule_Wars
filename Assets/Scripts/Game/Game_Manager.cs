@@ -25,7 +25,7 @@ public class Game_Manager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("Enemy_Spawn", 2f, 1f);
-        InvokeRepeating("Checking_Nulls", 5f, 0.2f);
+        InvokeRepeating("Checking_Nulls", 5f, 0.01f);
     }
 
     void Update()
@@ -43,15 +43,12 @@ public class Game_Manager : MonoBehaviour
 
         private void Enemy_Spawn()
         {
-            if(enemyCounter != maxEnemies && Enemies.Count >= 0){
-                while (enemyCounter < maxEnemies)
-                {
-                    randomSpawn = Random.Range(0, Enemy_Spawn_Points.Length - 1);
-                    Instantiated_Enemy = Instantiate(Enemy, Enemy_Spawn_Points[randomSpawn].transform.position, Quaternion.identity);
-                    Enemies.Add(Instantiated_Enemy);
-                    Instantiated_Enemy = null;
-                    enemyCounter++;
-                }
+            if(Enemies.Count != maxEnemies && Enemies.Count >= 0 && enemyCounter < maxEnemies){
+                randomSpawn = Random.Range(0, Enemy_Spawn_Points.Length - 1);
+                Instantiated_Enemy = Instantiate(Enemy, Enemy_Spawn_Points[randomSpawn].transform.position, Quaternion.identity);
+                Enemies.Add(Instantiated_Enemy);
+                Instantiated_Enemy = null;
+                enemyCounter++;
             }
             else if (enemyCounter == maxEnemies && Enemies.Count <= 0)
             {
