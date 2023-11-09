@@ -6,14 +6,15 @@ using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
+    [Header("Variables")]
+    [SerializeField] private float Speed = 3f;
+    [SerializeField] private float rotationFactorPerFrame = 13f;
+    
     //Declares
     Input_Actions playerInput;
     CharacterController characterController;
     
-    //Storing Variables
-    [SerializeField] private float Speed = 3f;
-    [SerializeField]private float rotationFactorPerFrame = 13f;
-    
+    //Parameters
     private Vector2 currentMovementInput;
     private Vector3 currentMovement;
     private bool isMoving;
@@ -33,6 +34,7 @@ public class Movement : MonoBehaviour
     {
         HandleRotation();
         characterController.Move(currentMovement * (Speed * Time.deltaTime));
+        //characterController.SimpleMove(Physics.gravity);
     }
     
     

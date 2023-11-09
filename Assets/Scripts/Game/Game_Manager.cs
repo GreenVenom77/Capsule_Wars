@@ -24,17 +24,13 @@ public class Game_Manager : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating("Enemy_Spawn", 2f, 1f);
-        InvokeRepeating("Checking_Nulls", 5f, 0.01f);
-    }
-
-    void Update()
-    {
-        
+        InvokeRepeating("Enemy_Spawn", 2f, 0.7f);
+        InvokeRepeating("Checking_Nulls", 4f, 0.001f);
     }
     
     private void Checking_Nulls()
     {
+        if (Players.Count == 0 || Enemies.Count == 0) return;
         Players.RemoveAll(item => item == null);
         Enemies.RemoveAll(item => item == null);
     }
@@ -43,7 +39,8 @@ public class Game_Manager : MonoBehaviour
 
         private void Enemy_Spawn()
         {
-            if(Enemies.Count != maxEnemies && Enemies.Count >= 0 && enemyCounter < maxEnemies){
+            if(Enemies.Count != maxEnemies && Enemies.Count >= 0 && enemyCounter < maxEnemies)
+            {
                 randomSpawn = Random.Range(0, Enemy_Spawn_Points.Length - 1);
                 Instantiated_Enemy = Instantiate(Enemy, Enemy_Spawn_Points[randomSpawn].transform.position, Quaternion.identity);
                 Enemies.Add(Instantiated_Enemy);
