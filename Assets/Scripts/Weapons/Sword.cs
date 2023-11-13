@@ -8,18 +8,8 @@ public class Sword : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private int attackDamage = 1;
 
-    [Header("References")]
+    [Header("References")] 
     private Enemy _enemyScript;
-    
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {

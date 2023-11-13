@@ -5,21 +5,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f1c8a0-cf5a-444e-bf3d-4939af4ecf38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/1/d/1deab7c58384129f2d45647554c675dc9a632929" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Enemy.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Enemy.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sword.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sword.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Diffuse.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Diffuse.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Specular.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_02_Specular.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Diffuse.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Diffuse.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Specular.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_09_Specular.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Diffuse.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Diffuse.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Specular.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/T_46_Specular.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/BrightBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/BrightBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/BrightIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/BrightIcons.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/DarkBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/DarkBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/DarkIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/00_Atlas/DarkIcons.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/ButtonController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/ButtonController.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Hover.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Hover.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Spin.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Animations/Spin.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-Regular SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-Regular SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-SemiBold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-SemiBold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/IbarraRealNova-SemiBold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Ibarra_OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Ibarra_OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-Regular SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-Regular SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-SemiBold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-SemiBold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost-SemiBold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost_OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Font/Jost_OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Prefabs/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Prefabs/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/0004_2K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/0004_2K.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/BG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/Group 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/Group 6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/Spin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/01_Demo/Resources/Spin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modern GDR - Free icons pack/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/0004_2K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/0004_2K.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_01_Cubemap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_01_Cubemap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_02_Cubemap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_02_Cubemap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_03_Cubemap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_03_Cubemap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_04_Cubemap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/Nebula_04_Cubemap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/New Cubemap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Materials/New Cubemap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_01_Cubemap.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_01_Cubemap.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_02_Cubemap.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_02_Cubemap.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_03_Cubemap.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_03_Cubemap.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_04_Cubemap.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/Nebula_04_Cubemap.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/New Cubemap.cubemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/New Cubemap.cubemap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Nebula Skyboxes/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FirstPrototypeMap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FirstPrototypeMap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestingScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestingScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/MainMenu_UI_Mnager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/MainMenu_UI_Mnager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/1/d/1deab7c58384129f2d45647554c675dc9a632929" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Plane.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Plane.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Warrior.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.0.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.0.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Game_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Game_Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Camera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Camera.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +167,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6c9b376c3fca40b787e8c1a2133bf243171a00/ba/b20230f0/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Game_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/MainMenu_UI_Mnager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Runing Wall/Assets/Scripts/Obstacles/Spike_Movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Runing Wall/Assets/Scripts/UI/Loader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Runing Wall/Assets/Scripts/UI/Settings_Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Runing Wall/Assets/Scripts/UI/UI_Manager_MM.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Sci-Fi-Shooter-1/Assets/Scripts/Player/Fps_Camera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Testing GJ/Assets/Scripts/Movement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -152,6 +277,7 @@
       <workItem from="1699431414664" duration="3279000" />
       <workItem from="1699471645004" duration="296000" />
       <workItem from="1699547584678" duration="2840000" />
+      <workItem from="1699832914723" duration="8200000" />
     </task>
     <servers />
   </component>

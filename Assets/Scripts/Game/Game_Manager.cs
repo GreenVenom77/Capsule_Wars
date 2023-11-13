@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Game_Manager : MonoBehaviour
@@ -10,9 +11,11 @@ public class Game_Manager : MonoBehaviour
     [SerializeField] private GameObject[] Enemy_Spawn_Points;
     [SerializeField] private GameObject Enemy;
     [SerializeField] private GameObject Player_Spawn_Point;
+    [SerializeField] private Text Score_Text;
     private GameObject Instantiated_Enemy;
 
     [Header("Variables")]
+    private static int Score_Counter;
     private int randomSpawn;
     private int enemyCounter = 0;
     private int maxEnemies = 5;
@@ -26,6 +29,7 @@ public class Game_Manager : MonoBehaviour
     {
         InvokeRepeating("Enemy_Spawn", 2f, 0.7f);
         InvokeRepeating("Checking_Nulls", 4f, 0.001f);
+        Score_Text.text = "Score: " + Score_Counter;
     }
     
     private void Checking_Nulls()
@@ -33,6 +37,12 @@ public class Game_Manager : MonoBehaviour
         if (Players.Count == 0 || Enemies.Count == 0) return;
         Players.RemoveAll(item => item == null);
         Enemies.RemoveAll(item => item == null);
+    }
+
+    public void Recount_Score(int score)
+    {
+        Score_Counter += score;
+        Score_Text.text = "Score: " + Score_Counter;
     }
 
     #region -------------------Enemy Spawn-------------------

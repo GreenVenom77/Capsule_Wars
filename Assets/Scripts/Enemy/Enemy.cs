@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
 {
     [Header("Stats")]
     [SerializeField] private int health = 3;
-    [SerializeField] private int attackDamage;
+    [SerializeField] private int attackDamage = 2;
+    private int score = 1;
     
     [Header("References")]
     private GameObject target;
@@ -40,6 +41,7 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            _gameManager.Recount_Score(score);
             Destroy(gameObject);
         }
     }

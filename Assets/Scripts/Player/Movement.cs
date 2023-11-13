@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
     {
         HandleRotation();
         characterController.Move(currentMovement * (Speed * Time.deltaTime));
-        //characterController.SimpleMove(Physics.gravity);
+        characterController.SimpleMove(Physics.gravity);
     }
     
     
