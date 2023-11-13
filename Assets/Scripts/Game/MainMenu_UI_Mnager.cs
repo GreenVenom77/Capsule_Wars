@@ -9,6 +9,8 @@ public class MainMenu_UI_Mnager : MonoBehaviour
     [SerializeField] GameObject Settings_Btn;
     [SerializeField] GameObject Settings_Menu;
     [SerializeField] GameObject Exit_Btn;
+    [SerializeField] GameObject SocialMedia_Btn;
+    [SerializeField] GameObject SocialMedia_Menu;
     [SerializeField] AudioClip Btn_sfx;
     AudioSource audioSource;
 
@@ -20,7 +22,7 @@ public class MainMenu_UI_Mnager : MonoBehaviour
     
     public void Play()
     {
-        SceneManager.LoadSceneAsync("FirstPrototypeMap", LoadSceneMode.Single);
+        SceneLoader.Load(SceneLoader.Scenes.FirstPrototypeMap);
         Sfx_Btn_s();
     }
     
@@ -29,15 +31,18 @@ public class MainMenu_UI_Mnager : MonoBehaviour
         Play_Btn.SetActive(false);
         Settings_Btn.SetActive(false);
         Exit_Btn.SetActive(false);
+        //SocialMedia_Btn.SetActive(false);
         Settings_Menu.SetActive(true);
         Sfx_Btn_s();
     }
 
-    public void Grays()
+    public void SocialMedia()
     {
         Play_Btn.SetActive(false);
         Settings_Btn.SetActive(false);
         Exit_Btn.SetActive(false);
+        SocialMedia_Btn.SetActive(false);
+        SocialMedia_Menu.SetActive(true);
         Sfx_Btn_s();
     }
 
@@ -46,7 +51,9 @@ public class MainMenu_UI_Mnager : MonoBehaviour
         Play_Btn.SetActive(true);
         Settings_Btn.SetActive(true);
         Exit_Btn.SetActive(true);
+        //SocialMedia_Btn.SetActive(true);
         Settings_Menu.SetActive(false);
+        SocialMedia_Menu.SetActive(false);
         Sfx_Btn_s();
     }
     
