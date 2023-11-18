@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f1c8a0-cf5a-444e-bf3d-4939af4ecf38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/2/7/27f0c8f1cec16860c1557c8fbbef7272c77478a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/8/1/8126c1ad37deb5f338892414a3ecbbc5e44ceaf4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/2/7/27f0c8f1cec16860c1557c8fbbef7272c77478a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/8/1/8126c1ad37deb5f338892414a3ecbbc5e44ceaf4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Capsule-Wars/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstPrototypeMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstPrototypeMap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/MainMenu_UI_Mnager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/MainMenu_UI_Mnager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/Capsule_Wars\Capsule-Wars.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Assets\Unity\Projects\Builds\Capsule_Wars" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Assets\Unity\Editor\2022.3.0f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Assets\Unity\Projects\Test\Capsule-Wars -debugCodeOptimization" />
@@ -150,6 +158,7 @@
       <workItem from="1699547584678" duration="2840000" />
       <workItem from="1699832914723" duration="8200000" />
       <workItem from="1699888616198" duration="3617000" />
+      <workItem from="1699951279417" duration="2041000" />
     </task>
     <servers />
   </component>
